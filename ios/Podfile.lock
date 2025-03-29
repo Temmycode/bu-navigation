@@ -1,0 +1,70 @@
+PODS:
+  - Flutter (1.0.0)
+  - geolocator_apple (1.2.0):
+    - Flutter
+    - FlutterMacOS
+  - mapbox_maps_flutter (2.6.2):
+    - Flutter
+    - MapboxMaps (= 11.10.2)
+    - Turf (= 4.0.0)
+  - MapboxCommon (24.10.1):
+    - Turf (= 4.0.0)
+  - MapboxCoreMaps (11.10.3):
+    - MapboxCommon (~> 24.10)
+  - MapboxMaps (11.10.2):
+    - MapboxCommon (= 24.10.1)
+    - MapboxCoreMaps (= 11.10.3)
+    - Turf (= 4.0.0)
+  - permission_handler_apple (9.3.0):
+    - Flutter
+  - Turf (4.0.0)
+  - url_launcher_ios (0.0.1):
+    - Flutter
+  - webview_flutter_wkwebview (0.0.1):
+    - Flutter
+    - FlutterMacOS
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - geolocator_apple (from `.symlinks/plugins/geolocator_apple/darwin`)
+  - mapbox_maps_flutter (from `.symlinks/plugins/mapbox_maps_flutter/ios`)
+  - permission_handler_apple (from `.symlinks/plugins/permission_handler_apple/ios`)
+  - url_launcher_ios (from `.symlinks/plugins/url_launcher_ios/ios`)
+  - webview_flutter_wkwebview (from `.symlinks/plugins/webview_flutter_wkwebview/darwin`)
+
+SPEC REPOS:
+  trunk:
+    - MapboxCommon
+    - MapboxCoreMaps
+    - MapboxMaps
+    - Turf
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  geolocator_apple:
+    :path: ".symlinks/plugins/geolocator_apple/darwin"
+  mapbox_maps_flutter:
+    :path: ".symlinks/plugins/mapbox_maps_flutter/ios"
+  permission_handler_apple:
+    :path: ".symlinks/plugins/permission_handler_apple/ios"
+  url_launcher_ios:
+    :path: ".symlinks/plugins/url_launcher_ios/ios"
+  webview_flutter_wkwebview:
+    :path: ".symlinks/plugins/webview_flutter_wkwebview/darwin"
+
+SPEC CHECKSUMS:
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  geolocator_apple: 66b711889fd333205763b83c9dcf0a57a28c7afd
+  mapbox_maps_flutter: 3599e70887e4ad571f88f427785982a5c9e552a3
+  MapboxCommon: e3352598343249fd87588e351cb521c23dd50f7b
+  MapboxCoreMaps: 4e773fdeaa260fa129c27b6d6ceecece625590e2
+  MapboxMaps: b43d56f6aa1023950067c21eeddebdd299546b1e
+  permission_handler_apple: 9878588469a2b0d0fc1e048d9f43605f92e6cec2
+  Turf: c9eb11a65d96af58cac523460fd40fec5061b081
+  url_launcher_ios: 5334b05cef931de560670eeae103fd3e431ac3fe
+  webview_flutter_wkwebview: a4af96a051138e28e29f60101d094683b9f82188
+
+PODFILE CHECKSUM: e30f02f9d1c72c47bb6344a0a748c9d268180865
+
+COCOAPODS: 1.15.2
